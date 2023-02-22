@@ -44,12 +44,46 @@ body {
 }
 
 
+h1,
+h2 {
+    5em;
+}
+
+h3 {
+    2.1em
+}
+
+h4 {
+    1em
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.alphabet {
+    font-size: 4vw;
+}
+
+.alphabet.thin {
+    font-weight: 100;
+}
+
+.alphabet.regular {
+    font-weight: 300;
+}
+
+.alphabet.bold {
+    font-weight: 700;
+}
+
+
 /*
 Color & Style
 */
 
 body {
-    background: hsl(200,34%,21%);
+    background: hsl(200,13%,34%);
     color: #fff;
 }
 
