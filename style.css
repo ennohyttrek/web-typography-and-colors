@@ -1,0 +1,59 @@
+/*
+Übung, Vorlesung Schriftmuster
+Enno Hyttrek
+ehy.training@gmail.com
+Version 1.0
+*/
+
+
+/*
+RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Layout
+*/
+
+h1,h2,h3,h4,h5,h6,p,ul,li {
+    margin-bottom: 1em;
+    padding: 0 20px;
+}
+
+header,
+footer,
+main {
+    padding: 1em 0;
+}
+
+
+/*
+Typography
+*/
+
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/*
+Color & Style
+*/
+
+body {
+    background: hsl(200,34%,21%);
+    color: #fff;
+}
+
+main {
+    background: #fff;
+    color: #000;
+}
